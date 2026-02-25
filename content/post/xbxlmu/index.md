@@ -1,7 +1,7 @@
 ---
-title: "2"
+title: "Xbxlmu"
 description: 
-date: 2026-02-23T23:08:00+08:00
+date: 2026-02-25T20:41:39+08:00
 image: 
 math: 
 license: 
@@ -11,8 +11,4 @@ build:
     list: always    # Change to "never" to hide the page from the list
 ---
 
-ceee
-update to build
-aaa
-
-awc
+awc这什么

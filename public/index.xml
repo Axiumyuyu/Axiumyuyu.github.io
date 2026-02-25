@@ -10,7 +10,7 @@
             <link>//localhost:1313/post/2/2/</link>
             <pubDate>Mon, 23 Feb 2026 23:08:00 +0800</pubDate>
             <guid>//localhost:1313/post/2/2/</guid>
-            <description>&lt;p&gt;ceee&lt;/p&gt;&#xA;</description>
+            <description>&lt;p&gt;ceee&#xA;update to build&#xA;aaa&lt;/p&gt;&#xA;</description>
         </item><item>
             <title>在hugo的第一篇文章</title>
             <link>//localhost:1313/post/hugo-1s-best/</link>
