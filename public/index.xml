@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title></title>
-        <link>//localhost:1313/</link>
+        <link>/</link>
         <description>Recent content on </description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon, 23 Feb 2026 23:08:00 +0800</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 25 Feb 2026 20:41:39 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>Xbxlmu</title>
+            <link>/post/xbxlmu/</link>
+            <pubDate>Wed, 25 Feb 2026 20:41:39 +0800</pubDate>
+            <guid>/post/xbxlmu/</guid>
+            <description>&lt;p&gt;awc这什么&lt;/p&gt;&#xA;</description>
+        </item><item>
             <title>2</title>
-            <link>//localhost:1313/post/2/2/</link>
+            <link>/post/2/2/</link>
             <pubDate>Mon, 23 Feb 2026 23:08:00 +0800</pubDate>
-            <guid>//localhost:1313/post/2/2/</guid>
-            <description>&lt;p&gt;ceee&#xA;update to build&#xA;aaa&lt;/p&gt;&#xA;</description>
+            <guid>/post/2/2/</guid>
+            <description>&lt;p&gt;ceee&#xA;update to build&#xA;aaa&lt;/p&gt;&#xA;&lt;p&gt;awc&lt;/p&gt;&#xA;</description>
         </item><item>
             <title>在hugo的第一篇文章</title>
-            <link>//localhost:1313/post/hugo-1s-best/</link>
+            <link>/post/hugo-1s-best/</link>
             <pubDate>Mon, 23 Feb 2026 22:51:07 +0800</pubDate>
-            <guid>//localhost:1313/post/hugo-1s-best/</guid>
+            <guid>/post/hugo-1s-best/</guid>
             <description>&lt;p&gt;测试,明天来写&#xA;1&#xA;1&#xA;1&#xA;1&#xA;1&#xA;2&#xA;2&#xA;31&#xA;23&#xA;123&#xA;1&#xA;24234&#xA;5345324&#xA;234234&#xA;234&#xA;1234234234&#xA;5341234&#xA;123&#xA;12&lt;/p&gt;&#xA;</description>
         </item></channel>
 </rss>
