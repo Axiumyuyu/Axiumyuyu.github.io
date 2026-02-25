@@ -1,0 +1,17 @@
+title: 施工中
+languageCode: zh-cn
+theme: stack
+params:
+  sidebar:
+    emoji: 🍀
+    subtitle: Sincerely. Gracefully.
+    avatar: img/avatar.png
+  pagination:
+    pagerSize: 5
+menu:
+  social:
+    - identifier: github
+      name: GitHub
+      url: https://github.com/Axiumyuyu
+      params:
+        icon: brand-github
