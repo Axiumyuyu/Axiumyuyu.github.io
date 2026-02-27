@@ -28,10 +28,10 @@ body::after {
 
 /* 3. 分配图片：各司其职 */
 body::before {
-    background-image: url('/img/bg-light.png');
+    background-image: url('/img/bg-light.jpg');
 }
 body::after {
-    background-image: url('/img/bg-dark.png');
+    background-image: url('/img/bg-dark.jpg');
 }
 
 /* 4. 掌控切换逻辑：用透明度（Opacity）实现无缝淡入淡出 */
