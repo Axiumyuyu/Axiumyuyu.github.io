@@ -1,4 +1,4 @@
-title: 施工中
+title: Axium.钰
 languageCode: zh-cn
 theme: stack
 params:
@@ -8,6 +8,7 @@ params:
     avatar: img/avatar.png
   pagination:
     pagerSize: 5
+  favicon: img/favicon.png
 menu:
   social:
     - identifier: github
