@@ -3,7 +3,7 @@ body {
     position: relative;
     z-index: 0; 
     /* 强行去掉主题自带的纯色背景，让底层的图片透上来 */
-    background-color: transparent !important; 
+    background-color: transparent; 
 }
 
 /* 2. 召唤幽灵图层：作为两张背景图的画板 */
@@ -40,7 +40,7 @@ body::after {
 [data-scheme="light"] body::before {
     opacity: 1; /* 显示浅色图 */
     /* 稍微调暗一点点背景（brightness），防止背景太亮导致白色卡片看不清 */
-    filter: blur(10px) brightness(0.8);
+    filter: blur(0px) brightness(0.8);
 }
 [data-scheme="light"] body::after {
     opacity: 0; /* 隐藏深色图 */
@@ -53,5 +53,49 @@ body::after {
 [data-scheme="dark"] body::after {
     opacity: 1; /* 显示深色图 */
     /* 深色模式下大幅度压低背景亮度，保护视力，让深色卡片更具浮雕感 */
-    filter: blur(10px) brightness(0.4); 
+    filter: blur(0px) brightness(0.7); 
+}
+
+/* =========================================
+   1. 动态背景：鼠标悬浮文章时背景变清晰
+   ========================================= */
+
+/* 浅色模式下，如果有文章被 hover，背景模糊度降为 0 */
+[data-scheme="light"] body:has(.article-list article:hover)::before {
+    filter: blur(6px) brightness(0.7);
+}
+
+/* 深色模式下，如果有文章被 hover，背景模糊度降为 0 */
+[data-scheme="dark"] body:has(.article-list article:hover)::after {
+    filter: blur(6px) brightness(0.6);
+}
+[data-scheme="light"] #main-menu>li:hover {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    // transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+[data-scheme="dark"] #main-menu>li:hover {
+    text-shadow: 1px 1px 2px rgba(187, 187, 187, 0.8);
+    
+}
+
+/* （可选）如果你希望鼠标悬浮在左侧菜单卡片上时，背景也变清晰，可以加上下面这两行 */
+[data-scheme="light"] body:has(#main-menu:hover)::before { filter: blur(6px) brightness(0.7); }
+[data-scheme="dark"] body:has(#main-menu:hover)::after { filter: blur(6px) brightness(0.6); }
+
+.article-list article, span.emoji {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.8s ease, color 0.8s ease;
+}
+
+/* 浅色模式下的 Hover 效果 */
+[data-scheme="light"] .article-list article:hover {
+    transform: translateY(-5px) scale(1.01);
+    /* 给整个白底卡片加上阴影 */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* 深色模式下的 Hover 效果 */
+[data-scheme="dark"] .article-list article:hover {
+    transform: translateY(-5px) scale(1.01);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
 }
