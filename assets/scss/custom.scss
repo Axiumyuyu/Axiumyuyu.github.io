@@ -80,10 +80,10 @@ body::after {
 }
 
 /* （可选）如果你希望鼠标悬浮在左侧菜单卡片上时，背景也变清晰，可以加上下面这两行 */
-[data-scheme="light"] body:has(#main-menu:hover)::before { filter: blur(6px) brightness(0.7); }
-[data-scheme="dark"] body:has(#main-menu:hover)::after { filter: blur(6px) brightness(0.6); }
+[data-scheme="light"] body:has(#main-menu li:hover,.main-article:hover, main.main article:hover)::before { filter: blur(6px) brightness(0.7); }
+[data-scheme="dark"] body:has(#main-menu li:hover, .main-article:hover, main.main article:hover)::after { filter: blur(6px) brightness(0.6); }
 
-.article-list article, span.emoji {
+.article-list article, span.emoji, .main-article {
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.8s ease, color 0.8s ease;
 }
 
@@ -98,4 +98,8 @@ body::after {
 [data-scheme="dark"] .article-list article:hover {
     transform: translateY(-5px) scale(1.01);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+[data-scheme="light"] a span, h2.site-description {
+    color: #24394e;
 }
