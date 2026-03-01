@@ -13,7 +13,7 @@ params:
     enable: true
     provider: waline
     waline:
-      serverURL: https://waline-axiumyuyu.vercel.app/
+      serverURL: https://cm.axiumyu.xyz/
       lang: zh-CN
       visitor: true
       meta: [nick, mail, link]
