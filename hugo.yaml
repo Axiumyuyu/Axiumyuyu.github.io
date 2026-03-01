@@ -9,6 +9,18 @@ params:
   pagination:
     pagerSize: 5
   favicon: img/favicon.webp
+  comments:
+    enable: true
+    provider: waline
+    waline:
+      serverURL: https://waline-axiumyuyu.vercel.app/
+      lang: zh-CN
+      visitor: true
+      meta: [nick, mail, link]
+      requiredMeta: [nick, mail]
+      pageSize: 10
+      wordLimit: 0
+
 menu:
   social:
     - identifier: github

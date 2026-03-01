@@ -83,7 +83,7 @@ body::after {
 [data-scheme="light"] body:has(#main-menu li:hover,.main-article:hover, main.main article:hover)::before { filter: blur(6px) brightness(0.7); }
 [data-scheme="dark"] body:has(#main-menu li:hover, .main-article:hover, main.main article:hover)::after { filter: blur(6px) brightness(0.6); }
 
-.article-list article, span.emoji, .main-article {
+.article-list article, span.emoji, .main-article, #waline, div.wl-comment, div.wl-panel {
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.8s ease, color 0.8s ease;
 }
 
