@@ -1,0 +1,10 @@
+{{ if .Site.Params.comments.waline.pageview }}
+<script type="module">
+  import { pageviewCount } from 'https://unpkg.com/@waline/client@v3/dist/pageview.mjs';
+
+  pageviewCount({
+    // 这里会自动读取你在 hugo.toml 里配好的服务端 URL
+    serverURL: '{{ .Site.Params.comments.waline.serverURL }}',
+  });
+</script>
+{{ end }}

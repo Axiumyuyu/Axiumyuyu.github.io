@@ -1,7 +1,10 @@
 +++
 title = "在hugo的第一篇文章"
+description = "建站过程"
+image = "https://file.axiumyu.xyz/20260228_141168133_p0.jpg"
 date = 2026-02-23T22:51:07+08:00
 draft = false
+
 +++
 
 ![141168133_p0.jpg](https://file.axiumyu.xyz/20260228_141168133_p0.jpg)
@@ -12,7 +15,10 @@ draft = false
 网站做了两个镜像,分别用的github pages和cf pages
 
 (blog.)axiumyu.xyz
+
 blog.sakuravalley.xyz
+
+www.axiumyu.xyz
 
 为什么突然就做好了,实际上我也早就说了我早就有这个想法了,于是才去学的前端,学的vue,如果你们还记得我以前的文章里面是什么时候提到我在学这些的话,你就会知道我已经保持这个想法多久了
 

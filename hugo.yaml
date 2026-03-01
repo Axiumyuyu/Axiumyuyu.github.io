@@ -21,7 +21,10 @@ params:
       requiredMeta: [nick, mail]
       pageSize: 10
       wordLimit: 0
-
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 menu:
   social:
     - identifier: github
