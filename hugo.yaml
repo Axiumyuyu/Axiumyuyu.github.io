@@ -1,3 +1,4 @@
+baseURL: https://blog.axiumyu.xyz/
 title: Axium.钰
 languageCode: zh-cn
 theme: stack
@@ -15,7 +16,7 @@ params:
     waline:
       serverURL: https://cm.axiumyu.xyz/
       lang: zh-CN
-      visitor: true
+      pageview: true
       meta: [nick, mail, link]
       requiredMeta: [nick, mail]
       pageSize: 10
