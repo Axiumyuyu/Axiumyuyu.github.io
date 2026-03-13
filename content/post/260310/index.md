@@ -1,14 +1,14 @@
 ---
 title: "260310"
-description: 
+description:
 date: 2026-03-10T21:49:54+08:00
 image: https://file.axiumyu.xyz/20260310_80341741_p0.webp
-math: 
-license: 
+math:
+license:
 comments: true
 draft: false
 build:
-    list: always    # Change to "never" to hide the page from the list
+  list: always
 ---
 
 不知道做点什么事情,就写点东西好了
