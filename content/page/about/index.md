@@ -19,6 +19,20 @@ links:
   - title: Background Image(dark)
     description: "Pid:128311260"
     website: https://www.pixiv.net/artworks/128311260
+  - title: 网站地址
+    description: 可任选其一加入收藏夹,或使用RSS订阅
+  - title: 主站(Cloudflare)
+    description: https://blog.axiumyu.xyz
+    website: https://blog.axiumyu.xyz
+  - title: 镜像1(Vercel)
+    description: https://www.axiumyu.xyz
+    website: https://www.axiumyu.xyz
+  - title: 镜像2(Cloudflare)
+    description: https://axiumyu.xyz
+    website: https://axiumyu.xyz
+  - title: 镜像3(Github)
+    description: https://www.sakuravalley.xyz
+    website: https://www.sakuravalley.xyz
 menu:
     main: 
         weight: 4

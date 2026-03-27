@@ -2,6 +2,7 @@ baseURL: https://blog.axiumyu.xyz/
 title: Axium.钰
 languageCode: zh-cn
 theme: stack
+enableRobotsTXT: true
 params:
   sidebar:
     emoji: 🍀
