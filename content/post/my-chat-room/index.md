@@ -3,7 +3,7 @@ title: 我的聊天室
 description:
 date: 2026-04-01T22:06:24+08:00
 slug: my-chat-room
-image:
+image: https://file.axiumyu.xyz/20260401_142812213_p0_min.webp
 categories:
   - 
 tags:
