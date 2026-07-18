@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <!-- 备用方案：如果 JS 失败，自动跳转到主站首页 -->
+    <meta http-equiv="refresh" content="0;url=https://blog.axiumyu.xyz">
+    <script>
+        // 核心逻辑：获取访客访问的原始路径，并拼接在主站域名后
+        // 这样访问 xxx.github.io/posts/abc 就能准确跳转到 主站域名/posts/abc
+        const MAIN_SITE = "https://blog.axiumyu.xyz";
+        window.location.replace(MAIN_SITE + window.location.pathname + window.location.search);
+    </script>
+</head>
+<body>
+    <p>正在跳转到主站... 如果没有自动跳转，请 <a href="https://blog.axiumyu.xyz">点击这里</a>。</p>
+</body>
+</html>
